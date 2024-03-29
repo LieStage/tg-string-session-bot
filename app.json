@@ -7,13 +7,38 @@
       ],
     
    "logo": "",  
-   "repository": "https://github.com/SastaDev/tg-string-session-bot",
-   "addons": [
-          {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ]
+   "repository": "https://github.com/LieStage/tg-string-session-bot",
+   "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "required": false
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
+        },
+        "CHANNELS": {
+            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "required": false
+        },
+        "ADMINS": {
+            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "required": false
+        }
+   },
+       "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
 }
