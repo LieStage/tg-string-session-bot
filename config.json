@@ -1,13 +1,13 @@
 {
-    "SESSION_FILE_NAME": "string_session_bot",
-    "API_ID": ,
-    "API_HASH": "",
-    "BOT_TOKEN": "",
-    "MONGO_DB_URI": [""],
+    "SESSION_FILE_NAME": "string_sessison_bot",
+    "API_ID": 4682685,
+    "API_HASH": "3eba5d471162181b8a3f7f5c0a23c307",
+    "BOT_TOKEN": "5404861862:AAHUfiMJ6F53QHqYOqh7BeMaotwJv1pwTZ8",
+    "MONGO_DB_URI": ["mongodb+srv://misoc51233:thunderbird@cluster0.ju2c94v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"],
     "TOTAL_TIMEOUT": 120,
     "BY_DEFAULT_LANGS": ["ENGLISH"],
-    "HELP_SUPPORT_GROUP": "@HelpSupportChat",
-    "BOT_OWNERS": [5119313903],
-    "DEVS": [5119313903],
+    "HELP_SUPPORT_GROUP": "@TRUMBOTCHAT",
+    "BOT_OWNERS": [945284066],
+    "DEVS": [945284066],
     "SPECIAL_USERS": []
 }
