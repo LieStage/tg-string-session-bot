@@ -28,10 +28,13 @@
         "DEVS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
             "required": false
-        }
+        },
         "MONGO_DB_URI": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false
+        },
+        "BOT_OWNERS":{
+              "required": false
         }
    },
        "addons": [],
